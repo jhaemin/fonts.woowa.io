@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'BMHANNA';
+  src: url('/fonts/BMHANNA-11yrs/BMHANNA-11yrs.woff2') format('woff2'),
+    url('/fonts/BMHANNA-11yrs/BMHANNA-11yrs.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('/fonts/BMHANNAAir/BMHANNAAir.woff2') format('woff2'),
+    url('/fonts/BMHANNAAir/BMHANNAAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BMEULJIRO';
+  src: url('/fonts/BMEULJIRO/BMEULJIRO.woff2') format('woff2'),
+    url('/fonts/BMEULJIRO/BMEULJIRO.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}

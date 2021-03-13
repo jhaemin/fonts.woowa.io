@@ -5,6 +5,7 @@
     "test": "web-test-runner \"src/**/*.test.ts\""
   },
   "dependencies": {
+    "gsap": "^3.6.0",
     "svelte": "^3.24.0"
   },
   "devDependencies": {
