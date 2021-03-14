@@ -85,7 +85,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box;
 }
 
 article,
@@ -100,6 +99,10 @@ menu,
 nav,
 section {
   display: block;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 ol,
@@ -148,11 +151,21 @@ html {
 body {
   line-height: 1;
   margin: 0;
-  font-family: BMHANNA, sans-serif;
+  font-family: 'PAYW Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   word-break: keep-all;
   overflow-wrap: break-word;
+  background-color: #fafafa;
+  color: #222;
+}
+
+.hanna {
+  font-family: BMHANNA, sans-serif;
+}
+
+.hanna-pro {
+  font-family: 'BMHANNA Pro', sans-serif;
 }
 
 .air {
@@ -167,6 +180,15 @@ hr {
   background-image: url('/images/divider.png');
 }
 
+button,
+input,
+textarea {
+  font: inherit;
+}
+
 :root {
-  --bm-gray: #808080;
+  --bm-bright: #f0f0f8;
+  --bm-gray: #8b8b8b;
+  --bm-ocean-gray: #f0f0f3;
+  --bm-dark-gray: #222224;
 }
