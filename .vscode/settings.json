@@ -1,4 +1,3 @@
 {
-  "editor.formatOnSave": true,
-  "svelte.plugin.css.completions.emmet": false
+  "editor.formatOnSave": true
 }
