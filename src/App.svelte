@@ -70,12 +70,23 @@
       scrollTrigger: '.face-section',
     })
 
+    faceTl.fromTo(
+      '.font-title',
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        duration: 2,
+        delay: 0.5,
+      }
+    )
     faceTl.to('.title-text', {
       y: '0%',
       stagger: 0.12,
       duration: 2,
       ease: Expo.easeInOut,
-      delay: -0.5,
+      delay: -2.5,
     })
     faceTl.to('.manifesto', {
       opacity: 1,
@@ -156,11 +167,13 @@
   <div class="base-column">
     <section class="section face-section">
       <div class="face-container">
-        <img
-          class="font-title"
-          src="/images/font-title.png"
-          alt="폰트 타이틀"
-        />
+        <div class="font-title-wrapper">
+          <img
+            class="font-title"
+            src="/images/font-title.png"
+            alt="폰트 타이틀"
+          />
+        </div>
         <h1 class="title hanna">
           <span class="title-text-mask">
             <span class="title-text">모두에게</span>
@@ -447,8 +460,8 @@
       position: absolute;
       top: 50%;
       left: 0;
-      transform: translateY(-50%);
       width: 60%;
+      transform: translateY(-50%);
       z-index: -1;
     }
 
