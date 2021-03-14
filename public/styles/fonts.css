@@ -8,6 +8,15 @@
 }
 
 @font-face {
+  font-family: 'BMHANNA Pro';
+  src: url('/fonts/BMHANNAPro/BMHANNAPro.woff2') format('woff2'),
+    url('/fonts/BMHANNAPro/BMHANNAPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
   font-family: 'BMHANNAAir';
   src: url('/fonts/BMHANNAAir/BMHANNAAir.woff2') format('woff2'),
     url('/fonts/BMHANNAAir/BMHANNAAir.woff') format('woff');
@@ -23,4 +32,95 @@
   font-weight: normal;
   font-style: normal;
   font-display: auto;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-Light.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-Bold.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-ExtraLight.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-Medium.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-Regular.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-SemiBold.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PAYW Pro';
+  src: url('/fonts/PAYW-Pro/PAYWPro-Thin.woff2') format('woff2'),
+    url('/fonts/PAYW-Pro/PAYWPro-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/f7/Framework7Icons-Regular.eot');
+  src: url('/fonts/f7/Framework7Icons-Regular.woff2') format('woff2'),
+    url('/fonts/f7/Framework7Icons-Regular.woff') format('woff'),
+    url('/fonts/f7/Framework7Icons-Regular.ttf') format('truetype');
+}
+
+.f7-icons,
+.framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  position: relative;
+  top: 0.03em;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga=1';
+  -moz-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  text-align: center;
 }
